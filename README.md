@@ -14,6 +14,11 @@ REST API to perform CRUD functions. Uses SQLite database by default.
 $ bundle install
 ```
 
+## DB SEED
+```bash
+$ rails db:seed
+```
+
 ## DB RUN MIGRATION
 ```bash
 $ rails db:migrate
