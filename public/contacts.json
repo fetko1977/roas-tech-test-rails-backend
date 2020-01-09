@@ -1,0 +1,27 @@
+[
+  {
+    "name": "John Davis",
+    "phone": "555-443-213",
+    "tags": ["Host", "Admin", "Tag 3"]
+  },
+  {
+    "name": "Paul Johnson",
+    "phone": "565-483-213",
+    "tags": ["Host", "Admin", "Tag 1"]
+  },
+  {
+    "name": "Angela Curtis",
+    "phone": "567-283-213",
+    "tags": ["Host", "Tag 4"]
+  },
+  {
+    "name": "Bob Henderson",
+    "phone": "557-293-213",
+    "tags": ["Admin", "Tag 2"]
+  },
+  {
+    "name": "John Small",
+    "phone": "555-324-213",
+    "tags": ["Admin", "Host"]
+  }
+]
