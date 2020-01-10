@@ -5,7 +5,14 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-records = JSON.parse(File.read('contacts.json'))
-records.each do |record|
-  Contact.create!(record)
+contacts = [
+  [ "John Davis", "555-443-213" ],
+  [ "Paul Johnson", "565-483-213" ],
+  [ "Angela Curtis", "567-283-213" ],
+  [ "Bob Henderson", "557-293-213" ],
+  [ "John Small", "555-324-213"]
+]
+
+contacts.each do |name, phone, tags|
+  Contact.create( name: name, phone: phone )
 end
