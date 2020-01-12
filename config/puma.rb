@@ -8,7 +8,8 @@ max_threads_count = ENV.fetch("RAILS_MAX_THREADS") { 5 }
 min_threads_count = ENV.fetch("RAILS_MIN_THREADS") { max_threads_count }
 threads min_threads_count, max_threads_count
 
-workers Integer(ENV['WEB_CONCURRENCY'] || 2)
+# Coment next line on Windows platform - workers
+# workers Integer(ENV['WEB_CONCURRENCY'] || 2)
 threads_count = Integer(ENV['RAILS_MAX_THREADS'] || 5)
 threads threads_count, threads_count
 
