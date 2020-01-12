@@ -4,4 +4,5 @@ Rails.application.routes.draw do
       resources :contacts
     end
   end
+  root to: "contacts#index"
 end
